@@ -1,5 +1,9 @@
 # WIKIHACKER N1 OPENWRT
 
+## Tips
+* Default Gateway: 192.168.2.1
+* Default Password: password
+
 **Applications**：
   - [x] luci-app-passwall
   - [x] luci-app-accesscontrol
