@@ -68,10 +68,10 @@ jobs:
         chmod +x $CONFIG_SH
         ./$CONFIG_SH
 
-   - name: MOD index file
-     run: |
-       cd $OPENWRTROOT/package/lean/autocore/files/arm
-       sed -i '/Load Average/i\\t\t<tr><td width="33%"><%:Telegram%></td><td><a href="https://t.me/wikimao"><%:WikiHackers%></a></td></tr>' index.htm
+    - name: MOD index file
+      run: |
+        cd $OPENWRTROOT/package/lean/autocore/files/arm
+        sed -i '/Load Average/i\\t\t<tr><td width="33%"><%:Telegram%></td><td><a href="https://t.me/wikimao"><%:WikiHackers%></a></td></tr>' index.htm
 
     - name: Download package
       run: |
